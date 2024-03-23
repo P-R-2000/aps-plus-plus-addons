@@ -2,7 +2,7 @@
 
 if (!c.FIREWORKS) console.log("[fireworks.js] c.FIREWORKS is disabled. Set it to true to enable this addon.");
 else console.log("[fireworks.js] Fireworks enabled.");
-console.log("For more info visit: https://github.com/P-R-2000/aps-plus-plus-addons/tree/main/fireworks");
+console.log("[fireworks.js] For more info visit: https://github.com/P-R-2000/aps-plus-plus-addons/tree/main/fireworks");
 
 const fireworkShapes = c.FIREWORKS?.SHAPES ?? [0, 3, 4, "M 0 -1 L 0.3 -0.4 L 1 -0.4 L 0.6 0.3 L 0.8 1 L 0 0.6 L -0.8 1 L -0.6 0.2 L -1 -0.4 L -0.4 -0.4 Z"];
 const fireworkColors = c.FIREWORKS?.COLORS ?? [["blue", "red"], ["red", "orange"], ["blue", "cyan"], ["purple", "pink"], ["lightGreen", "green"]];
