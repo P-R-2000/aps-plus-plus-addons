@@ -48,7 +48,7 @@ function spawnFireworks(position) {
         e.accel.x = Math.cos(facing * i) * fireworkSpeed;
         e.accel.y = Math.sin(facing * i) * fireworkSpeed;
         e.range = fireworkRange;
-        e.team = TEAM_ENEMIES;
+        e.team = TEAM_ROOM;
     }
 }
 
