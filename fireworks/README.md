@@ -1,4 +1,5 @@
 # Fireworks Addon
+[fireworks image](https://github.com/P-R-2000/aps-plus-plus-addons/blob/main/fireworks/image.jpg)
 This highly-customizable addon allows you to add fireworks in your server!
 Fireworks get spawned every time an entity dies.
 # Setup
