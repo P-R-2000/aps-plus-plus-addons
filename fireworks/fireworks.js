@@ -60,4 +60,5 @@ module.exports = ({ Events }) => {
             }
         });
     });
+    if (c.FIREWORKS?.SPAWN_EVERY_MS) setInterval(() => { spawnFireworks(room.random()) }, c.FIREWORKS.SPAWN_EVERY_MS);
 };
