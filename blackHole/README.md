@@ -1,6 +1,6 @@
 # Black Hole Addon
 This addon adds a black hole tank that has a gravitational attraction.
-![Black hole clip](https://github.com/P-R-2000/aps-plus-plus-addons/blob/main/blackHole/clip.webm)
+![Black hole clip](https://github.com/P-R-2000/aps-plus-plus-addons/blob/main/blackHole/clip.webm?raw=true)
 ## Setup
 To use this addon download [this file](https://github.com/P-R-2000/aps-plus-plus-addons/blob/main/blackHole/blackHole.js) and move it into the `server/modules/definitions/addons` folder.
 ## Customization
