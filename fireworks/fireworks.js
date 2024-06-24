@@ -42,8 +42,10 @@ function spawnFireworks(position) {
         let e = new Entity(position);
         e.isFirework = true;
         e.define(definition);
-        e.colorUnboxed.base = colors[i % colors.length];
-        e.compressColor();
+        if (e.colorUnboxed) {
+            e.colorUnboxed.base = colors[i % colors.length];
+        	e.compressColor();
+        } else e.color.interpret‎(colors[i % colors.length]);
         e.facing = facing * i;
         e.accel.x = Math.cos(facing * i) * fireworkSpeed;
         e.accel.y = Math.sin(facing * i) * fireworkSpeed;
